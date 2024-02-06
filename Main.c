@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <math.h>
 
-int main (){
-    //our stuff here ig
+int main()
+{
+    // our stuff here ig
 
     double firstNum;
     double secondNum;
@@ -19,10 +20,14 @@ int main (){
     printf("Enter your thingy");
     scanf(" %c", &operator);
 
-    switch(operator){
-        case '*': result = firstNum * secondNum;
+    switch (operator)
+    {
+    case '*':
+        result = firstNum * secondNum;
         break;
     }
+
+    // coment lol
 
     printf("\nresult: %lf", result);
 
