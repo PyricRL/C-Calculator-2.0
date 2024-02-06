@@ -28,6 +28,7 @@ int main()
     }
 
     // coment lol
+    //another comment
 
     printf("\nresult: %lf", result);
 
