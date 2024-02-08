@@ -11,19 +11,31 @@ int main()
 
     char operator;
 
-    printf("Enter first number");
+    printf("Enter first number\n");
     scanf(" %lf", &firstNum);
 
-    printf("Enter second number");
+    printf("Enter second number\n");
     scanf(" %lf", &secondNum);
 
-    printf("Enter your thingy");
+    printf("Enter your thingy\n");
     scanf(" %c", &operator);
 
     switch (operator)
     {
     case '*':
         result = firstNum * secondNum;
+        break;
+    
+    case '+':
+        result = firstNum + secondNum;
+        break;
+    
+    case '-':
+        result = firstNum - secondNum;
+        break;
+    
+    case '/':
+        result = firstNum / secondNum;
         break;
     }
 
